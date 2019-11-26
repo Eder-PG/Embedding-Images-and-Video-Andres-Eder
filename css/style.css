@@ -1,0 +1,20 @@
+.topNavBar{
+ position: fixed;
+ display: flex;
+ top: 0;
+ width: 100%;
+ background-color: #ffffff;
+}
+
+.search{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 50%;
+}
+
+.youtubeButton .uploadButton .downloadButton .loginButton{
+    margin-left: 10px;
+    margin-right: 10px;
+}
