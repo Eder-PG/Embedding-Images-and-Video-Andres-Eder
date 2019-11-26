@@ -1,9 +1,24 @@
-.topNavBar{
+
+#loginButton, #downloadButton, #uploadButton{
+    align-self: auto;
+}
+#search{
+    width: 83%;
+    margin-bottom: 30px;
+    height: 20px;
+    box-sizing: content-box;
+    
+}
+.suggestions{
+    float: right;
+}
+/*.topNavBar{
  position: fixed;
- display: flex;
+ display: block;
  top: 0;
  width: 100%;
  background-color: #ffffff;
+ float: center;
 }
 
 .search{
@@ -14,7 +29,4 @@
     width: 50%;
 }
 
-.youtubeButton .uploadButton .downloadButton .loginButton{
-    margin-left: 10px;
-    margin-right: 10px;
-}
+
