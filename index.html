@@ -6,16 +6,34 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
-    <body>
-        <header class="topNavBar">
-            
-            <a><img id="youtubeButton" src="assets/youtube-logo.png" height=30px width=105px /> </a>
+    <header id="topNavBar">            
+            <img id="youtubeIcon" src="assets/youtube-logo.png" height=30px width=105px />
             <input id="search" type="text" placeholder="Search..."/>          
-            <a><img id="uploadButton" src="assets/icon-upload.png" width=30px height=30px /></a>
-            <a><img id="downloadButton" src="assets/icon-download.png" width=30px height=30px /></a>
-            <a><img id="loginButton" src="assets/icon-login.png" width=30px height=30px /></a>
+            <img class="topIcon" src="assets/icon-upload.png" width=30px height=30px />
+            <img class="topIcon" src="assets/icon-download.png" width=30px height=30px />
+            <img class="topIcon" src="assets/icon-login.png" width=30px height=30px />
         </header>
 
+    <aside id="suggestions">
+            <h2>Suggested Videos</h2>
+                <p><img src="assets/thumbnail1.jpg" width=140px height=80px />
+                    <strong>Bob Marley - as melhores - so saudade</strong>
+                    <br>So Saudade<br>3.5M views</p>            
+                <p><img src="assets/thumbnail2.jpg" width=140px height=80px />
+                    <strong>Joao Gilberto & Stan Getz - Full Album (1963)</strong>
+                    <br>Music Sphere<br>1.1M views</p>
+                <p><img src="assets/thumbnail3.jpg" width=140px height=80px />
+                    <strong>1 Hours Of Bossa Nova Covers - Music for Coffee and Restaurants | Relaxing Jazz 2019</strong>
+                    <br>Jazz & Bossa Nova Songs<br>582K views</p>
+                <p><img src="assets/thumbnail4.jpg" width=140px height=80px />
+                    <strong>Cozy Evenings | An Indie/Chill Mix</strong>
+                    <br>Chill'in<br>2M views</p>
+                <p><img src="assets/thumbnail5.jpg" width=140px height=80px />
+                    <strong>Guardians of the Galaxy Awesome Mix Vol 1 Vol 2 Full Soundtrack</strong>
+                    <br>Felipe Thiesen<br>16M views</p>
+                </aside>
+
+    <body id="body">
         <div class="video">            
             <iframe width="560" height="315" src="https://www.youtube.com/embed/HetRmWnc3_s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <h1>Bossa n' Stones (FULL ALBUM)</h1>
@@ -35,24 +53,7 @@
             <p><strong>Published On Nov 12 2019</strong> <br> The classic album of bossa nova and rock 'n' roll fusion that started it all is now available here. You´ve heard the songs over the years, in your favorite restaurant, beachside café or shopping center. Or maybe it was a friend at the office who turned it on nice and low, so you had a little salty breeze blowing through the breakroom. Now you can listen to your favorite tunes from the first album of Bossa n' Stones here. The album that started an entire musical genre, just waiting for you! </p>
         </div>
 
-        <div class="suggestions">
-            <h2>Suggested Videos</h2>
-            <p><img src="assets/thumbnail1.jpg" width=140px height=80px />
-                <strong>Bob Marley - as melhores - so saudade</strong>
-                <br>So Saudade<br>3.5M views</p>            
-            <p><img src="assets/thumbnail2.jpg" width=140px height=80px />
-                <strong>Joao Gilberto & Stan Getz - Full Album (1963)</strong>
-                <br>Music Sphere<br>1.1M views</p>
-            <p><img src="assets/thumbnail3.jpg" width=140px height=80px />
-                <strong>1 Hours Of Bossa Nova Covers - Music for Coffee and Restaurants | Relaxing Jazz 2019</strong>
-                <br>Jazz & Bossa Nova Songs<br>582K views</p>
-            <p><img src="assets/thumbnail4.jpg" width=140px height=80px />
-                <strong>Cozy Evenings | An Indie/Chill Mix</strong>
-                <br>Chill'in<br>2M views</p>
-            <p><img src="assets/thumbnail5.jpg" width=140px height=80px />
-                <strong>Guardians of the Galaxy Awesome Mix Vol 1 Vol 2 Full Soundtrack</strong>
-                <br>Felipe Thiesen<br>16M views</p>
-        </div>
+        
 
     </body>
 </html>
