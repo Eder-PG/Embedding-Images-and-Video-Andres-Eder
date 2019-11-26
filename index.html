@@ -8,20 +8,22 @@
 
     <body>
         <header class="topNavBar">
-            <p class="logo"> <img src="https://cdn4.iconfinder.com/data/icons/game-interface-outline/100/objects-17-512.png"
-            width=50px height=50px> youtube </p> 
-            <input type="text" />
-            <input type="submit" />
-            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAS1BMVEX///8AAABYWFhUVFRhYWGRkZH09PS7u7vc3Nzu7u40NDQxMTFdXV3Dw8Ovr69zc3NQUFB8fHycnJwqKirS0tJEREQdHR2Hh4fl5eU8lf7wAAADeElEQVR4nO3da2/aQBCFYQw2twDhloT//0urilZTw64ZL7ueOdvzfI7QHCl9A5FSz2ZERERERE/O1geU1jWd9QllrZqmWVkfUdK6+W1tfUY5y+ZuaX1IMds/C7fWh5TSNn+11qeU0TWiyqCumn9VGNR101ddUJfNo9qCun1a+GF9Ul7t08DKgtoFBlYV1FVwYEVBfcxodUF9zmhtQf0YWFhFUEMZFRUENZxRAR/UWEYFeFDjGRXQQR3KqEAO6vO70RDgoA5nVMAG9VVGBWhQX2dUQAZVk1EBGFRdRgVeUHUZFXC/Q9VmVIAFVZ9RARXUMRkVQEEdl1EBE9SxGRUoQR2bUQES1PEZFRBBTcmoAAhqWkaF+6CmZlQ4D2p6RoXvoA79blTL9Uf+dzIqHAf1vYwKt0F9N6PCaVDfz6hwGdQcGRUeg5ojo8JhUPNkVLgLaq6MCmdBzZdR4SqoOTMqHAU1b0aFn6Cmf6gf5uYjf+6MCidBzZ9R4SKoJTIqHAS1TEaFeVBLZVRYB7VURoVxUMtlVJgGtWRGhWFQy2ZUmAW1dEaFUVDLZ1TYBDXvh/phJh/5p8ioMAjq4WuhNv8OXv0917/E12H6iWPsggt31mdlNA8unFuflREX4uNCfFyIjwvxcSE+LsTHhfi4EB8X4uNCfFyIjwvxcSE+LsTHhfi4EB8X4uNCfFyIjwvxcSE+LsTHhfi4EB8X4uNCfFw4lWPwjmOGVy63cNzN4TsWGe4ot3Ax6pW5MB0XpuNCzR1cqMGF6bhQcwcXanBhOi7U3MGFGlyYjgs1d3ChBhem40LNHVyowYXpuFBzBxdqcGE6LtTcwYUa9S8M31Huladf+LNrn+1+Mryyl4XlcGEfF3rEhX1c6BEX9nGhR1zYx4UecWEfF3rEhX1c6BEX9v2vC33/3ce4m8NfPeY5G5OLPBsktnDa56qUFHtmy8n6sGxOkYVn68OyOUcW7q0Py2YfWbixPiybTWTh7GJ9WSaX2MCJHoVXXvxhezfr0zK5RRdG/l4RzdD7zKv1cVlcBxZG3rhhGX4jXcMPjOiPiruD9X1ve/mQvU/rC9/0+Wpg7DMlCtXf1iNPVP7nAbjfqIpv0TvU3Ix4kucm/FhN3+Yvfkw8uKL9azwOvpMJunU4H6Yu3cCb7SGb/fnUzn1rT+f9uG9PIiIiInLoF/fXPnFb/W1uAAAAAElFTkSuQmCC"
-            width=30px height=30px />
-            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATYAAACjCAMAAAA3vsLfAAAAaVBMVEX///8AAAC5ublFRUVPT0/Nzc3S0tIrKyunp6eYmJjBwcH29vZISEj5+fns7Oyurq41NTV1dXUTExNVVVXHx8fX19fi4uJ+fn4mJiaSkpJpaWmenp4KCgrv7+9vb28ZGRmHh4ddXV08PDxmOuaZAAAC90lEQVR4nO3diVIaURBAUQXjAriAoqhx/f+PNJWkUgjDm3kXodvMPV/Q3EIHpqk3BwdSP41Hg01+RM+W1+iw4Dp6urQmpWyH8+jxsjoqZvPPdAOzIWZDzIaYDTEbYjbEbIjZELMhZkPMhpgNMRtiNsRsiNkQsyFmQ8yGmA0xG2I2xGyI2RCzIWZDzIaYDTEbYjbEbIjZELMhZkPMhpgNMRtiNsRsiNkQsyFmQ8yGmA0xG2I2xGyI2RCzIWZDytmOo8fLqpzt7uyzx8F59MABLkanKy6vitnW/exft6fKRI0uol/F3o2/oNpz9IsIcLl1tZdx9GuIMN022230K4hRvnC2uoyeP8j5yzbVptHjh7nYotpJ9PCBbni2/n32WPJIqw2iJ48FL6d30XNHG5Jq79FThxvPQLZe/2P747a+2ih65gyKB3k2eY2eOIezumrD6HmzeKjK9hQ9bhrvFdVcKfxTcc/yPnrWTOZdqx1FT5rLoGM2/7F99tqpmku/VW8dqj1GD5nQSWu1t+gRM2q9nL70by3axXFLtp6uXFqVd4B9Xbm0uytU6/2dyYLrjdWuokfLbLzYlM07kyWbdoA30YMl17wD9At8m9OGan6Bb7e+A5z18qdFtdZ2gD7hqovVHaCfc7v5vAPs70+Lai3vAF1Udbe0A/RyUOHZywHydwfY8x9kVXv6fTn1Lnit8fRw4XtN+mrz2cm6xX5nWDSMMMt9QW7eoux3hsYRcu+lzYaYDTEbYjbEbIjZELMhZkPMhpgNMRtiNsRsiNkQsyFmQ8yGmA0xG2I2xGyI2RCzIWZDzIaYDTEbYjbEbIjZELMhZkPMhpgNac42Ge7R5L/JloDZELMhZkPMhpgNMRtiNsRsiNmQ3NnAKf77kfuAxq94xNxOJD8Wo/ahj3uS/azB++hAzbKf/7bNE792KP0RjSnfbtnfbL803yYMNYlu0sE5enLVLg2/x6HapUOHA3ybc45v656Js1MPuT/orpiPBgmMcp+aInXxAYxPMFWzxpI4AAAAAElFTkSuQmCC"
-            width=30px height=30px />
-            <img src="https://previews.123rf.com/images/azvector/azvector1803/azvector180300411/97269455-login-icon-authorize-icon-log-in-sign-login-icon-open-account-symbol-register-new-user-vector-icon.jpg"
-            width=30px height=30px />
+            <img src="assets/youtube-logo.png" height=30px width=105px /> 
+            <input class="search" type="text" />          
+            <img src="assets/icon-upload.png" width=30px height=30px />
+            <img src="assets/icon-download.png" width=30px height=30px />
+            <img src="assets/icon-login.png" width=30px height=30px />
         </header>
-        <div class="video">
-            <p>Bossa n' Stones (FULL ALBUM)</p>
+
+        <div class="video">            
             <iframe width="560" height="315" src="https://www.youtube.com/embed/HetRmWnc3_s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h1>Bossa n' Stones (FULL ALBUM)</h1>
+            <img src="assets/icon-user.jpg" height=80px width="80px" />
+            <p>Music Brokers</p>
+            <img src="assets/sub-button.jpg" height=40px width=140px />
+
+
+            <p><span></span>1,000,0000 Views</span></p>
             <p>views</p>
             <p>like</p>
             <p>dislike</p>
