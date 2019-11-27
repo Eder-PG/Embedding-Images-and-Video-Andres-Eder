@@ -1,13 +1,20 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 header{
     position: fixed;
     top: 0;
     width: 100%;    
     height: 45px;
-    background-color: #db7d7d;
+    background-color: white;
 
 }
 
 #youtubeIcon{
+    
     position: relative;
     top: 8px;
     left: 20px;
@@ -15,29 +22,30 @@ header{
 }
 
 #searchBar{
+    display: inline-block;
     position: relative;
     margin: 10px auto;
     width: 50%;
-    height: 20px;
+    height: 28px;
     left: 150px;
     bottom: 3px;
 
 }
 
 .searchButton{
+    display: inline-block;
     position: relative;
-    
+    left: 150px;
+    height: 26px;
+    bottom: 4px;
 
 }
 
 .topIcon{
     position: relative;
+    float: right;
     top: 8px;
     right: 20px;
-    
-    float: right;
-    
-    
 }
 
 
@@ -50,8 +58,10 @@ aside{
     
 }
 
-
-
+main{
+    position: relative;
+    top: 50px;
+}
 
 
 
