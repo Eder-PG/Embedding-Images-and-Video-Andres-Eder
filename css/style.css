@@ -1,13 +1,47 @@
-
-#topNavBar{
+header{
     position: fixed;
     top: 0;
     width: 100%;    
     height: 45px;
-    background-color: #ffffff;
+    background-color: #db7d7d;
+
 }
 
-#suggestions{
+#youtubeIcon{
+    position: relative;
+    top: 8px;
+    left: 20px;
+
+}
+
+#searchBar{
+    position: relative;
+    margin: 10px auto;
+    width: 50%;
+    height: 20px;
+    left: 150px;
+    bottom: 3px;
+
+}
+
+.searchButton{
+    position: relative;
+    
+
+}
+
+.topIcon{
+    position: relative;
+    top: 8px;
+    right: 20px;
+    
+    float: right;
+    
+    
+}
+
+
+aside{
     
     overflow: scroll;
     position: fixed;
@@ -16,22 +50,8 @@
     
 }
 
-#body{
-    position: relative;
-    top: 60px;
-    width: 68%;
-    
 
-}
 
-.topIcon{
-    float: right;
-    margin: 10px;    
-}
 
-#search{
-    width: 50%;
-    
-}
 
 
