@@ -14,6 +14,12 @@ header{
     z-index: 100;
 }
 
+.button{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
 #menuIcon{
     cursor: pointer;
     position: relative;
@@ -36,6 +42,7 @@ header{
     height: 24px;
     width: 40%;
     font-size: 16px;
+    border: 1px #000000 solid;
 }
 
 #searchButton{
@@ -43,8 +50,10 @@ header{
     position: relative;
     left: 55px;
     top: 4px;
-    height: 28px;
+    height: 26px;
     width: 50px;
+    background: #cccccc;
+    border: 1px #000000 solid;
 }
 
 #uploadIcon{
@@ -63,8 +72,9 @@ header{
     align-self: right;
     right: 40px;
     top: 11px;
-    height: 28px;
+    height: 26px;
     background: #5588ff;
+    border: 1px #5588ff solid;
     color: white;   
     width: 60px;
     font-size: 12px;
