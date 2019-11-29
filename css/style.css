@@ -43,6 +43,8 @@ header{
     width: 40%;
     font-size: 16px;
     border: 1px #000000 solid;
+    margin: 0;
+    padding: 0;
 }
 
 #searchButton{
@@ -85,17 +87,78 @@ header{
 main{
     position: relative;
     top: 50px;
+    width: 70%;
+    background: #ffffff;
 }
 
 .container{
     display: grid;
-    grid-template-rows: repeat(6, 1fr);
-    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: 320px 50px 45px 45px 35px 5fr 2fr;
+    grid-template-columns: 90px 150px 90px 1fr 1fr 150px;
     border: 2px black solid;
 }
 
 .box{
     border: 2px black solid;
+}
+
+/*video*/.a{ 
+    grid-area: 1 / 1 / span 1 / span 6;
+}
+
+/*title*/.b{
+    grid-area: 2 / 1 / span 1 / span 6;
+}
+
+/*avatar*/.c{
+    grid-area: 3 / 1 / span 2 / span 1;
+}
+
+/*channel*/.d{
+    grid-area: 3 / 2 / span 1 / span 1;
+}
+
+/*subscribe*/.e{
+    grid-area: 4 / 2 / span 1 / span 1;
+}
+
+/*blank1*/.f{
+    grid-area: 3 / 3 / span 2 / span 3;
+}
+
+/*views*/.g{
+    grid-area: 3 / 6 /span 2 /span 1;
+}
+
+/*add*/.h{
+    grid-area: 5 / 1 / span 1 / span 1;
+}
+
+/*share*/.i{
+    grid-area: 5 / 2 / span 1 / span 1;
+}
+
+/*more*/.j{
+    grid-area: 5 / 3 / span 1 / span 1;
+}
+/*blank2*/.k{
+    grid-area: 5 / 4 / span 1 / span 1;
+}
+
+/*like*/.l{
+    grid-area: 5 / 5 / span 1 / span 1;
+}
+
+/*dislike*/.m{
+    grid-area: 5 / 6 / span 1 / span 1;
+}
+
+/*info*/.n{
+    grid-area: 6 / 1 / span 1 / span 6;
+}
+
+/*comments*/.o{
+    grid-area: 7 / 1 / span 1 / span 6;
 }
 
 /* SIDE BAR */
