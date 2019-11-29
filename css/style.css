@@ -98,82 +98,129 @@ main{
 .container{
     display: grid;
     grid-template-rows: 320px 50px 45px 45px 35px 5fr 2fr;
-    grid-template-columns: 90px 150px 90px 1fr 1fr 150px 1fr;
-    border: 2px black solid;
+    grid-template-columns: 90px 150px 90px 1fr 1fr 150px 30%;
     padding: 3px;
 }
 
-.box{
-    border: 2px black solid;
-}
-
-/*video*/.a{ 
+.video{ 
     grid-area: 1 / 1 / span 1 / span 6;
 }
 
-/*title*/.b{
+.title{
     grid-area: 2 / 1 / span 1 / span 6;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: Arial;
+    display: flex;
+    align-self: flex-end;
+     
 }
 
-/*avatar*/.c{
+.avatar{
     grid-area: 3 / 1 / span 2 / span 1;
+    cursor: pointer;
 }
 
-/*channel*/.d{
+.channel{
     grid-area: 3 / 2 / span 1 / span 1;
-    font-size: 14px;
-    align-self: end;
+    font-size: 12px;    
+    font-family: Arial;
+    text-align: center;
+    display: flex;    
+    align-self: flex-end;
 }
 
-/*subscribe*/.e{
+.subscribe{
     grid-area: 4 / 2 / span 1 / span 1;
+    cursor: pointer;
 }
 
-/*blank1*/.f{
+.blank1{
     grid-area: 3 / 3 / span 2 / span 3;
 }
 
-/*views*/.g{
-    grid-area: 3 / 6 /span 2 /span 1;
-    align-self: end;
+.views{
+    grid-area: 3 / 6 /span 2 /span 1; 
+    font-size: 15px;    
+    font-family: Arial;
+    text-align: center;
+    display: flex;    
+    align-self: flex-end;
+    padding-bottom: 5px;
 }
 
 
-/*add*/.h{
+.add{
+    cursor: pointer;
     grid-area: 5 / 1 / span 1 / span 1;
-    font-size: 20px;
+    font-size: 20px;    
+    font-weight: 700;
+    font-family: Arial;
+    text-align: end;        
 }
 
-/*share*/.i{
+.share{
+    cursor: pointer;
     grid-area: 5 / 2 / span 1 / span 1;
+    font-size: 20px;    
+    font-weight: 700;
+    font-family: Arial;
+    text-align: center;
 }
 
-/*more*/.j{
+.more{
+    cursor: pointer;
     grid-area: 5 / 3 / span 1 / span 1;
+    font-size: 20px;    
+    font-weight: 700;
+    font-family: Arial;    
 }
-/*blank2*/.k{
+
+.blank2{
     grid-area: 5 / 4 / span 1 / span 1;
 }
 
-/*like*/.l{
+.like{
+    cursor: pointer;
     grid-area: 5 / 5 / span 1 / span 1;
-
+    font-size: 20px;    
+    font-weight: 700;
+    font-family: Arial;
+    text-align: end; 
 }
 
-/*dislike*/.m{
+.dislike{
+    cursor: pointer;
     grid-area: 5 / 6 / span 1 / span 1;
+    font-size: 20px;    
+    font-weight: 700;
+    font-family: Arial;
+    padding-left: 40px;   
 }
 
-/*info*/.n{
+.info{
     grid-area: 6 / 1 / span 1 / span 6;
+    font-size: 14px;
+    font-family: Arial;
     padding: 10px;
+    text-align: justify;
 }
 
-/*comments*/.o{
+.comments{
     grid-area: 7 / 1 / span 1 / span 6;
+    font-size: 14px;    
+    font-family: Arial;
+    text-align: center
 }
-/*sidebar*/ .p{
-    grid-area: 1 / 7 / span 7 / span 1;
-    text-align: justify;
+
+.sidebar{
+    grid-area: 1 / 7 / span 7 / span 1;    
+    font-size: 14px;
+    font-family: Arial;
+    text-align: left;
+}
+
+.sideVideo, .sideText{
+    cursor: pointer;
 }
 
