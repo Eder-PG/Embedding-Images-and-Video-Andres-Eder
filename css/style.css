@@ -99,7 +99,8 @@ main{
     display: grid;
     grid-template-rows: 320px 50px 45px 45px 35px 5fr 2fr;
     grid-template-columns: 90px 150px 90px 1fr 1fr 150px 30%;
-    padding: 3px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .video{ 
@@ -223,4 +224,17 @@ main{
 .sideVideo, .sideText{
     cursor: pointer;
 }
+#toggle{
+    color:#5588ff;
+    font-size: 25px;    
+    float: left;
+    position: relative;
+    right:80px;
+}
+#autoPlay{
+color: #777777;
+float: right;
+position: relative;
+right:100px;
 
+}
