@@ -82,20 +82,25 @@ header{
     font-size: 12px;
 }
 
+p{
+    justify-content: stretch;
+}
+
 /* MAIN */
 
 main{
     position: relative;
     top: 50px;
-    width: 70%;
+    width: 100%;
     background: #ffffff;
 }
 
 .container{
     display: grid;
     grid-template-rows: 320px 50px 45px 45px 35px 5fr 2fr;
-    grid-template-columns: 90px 150px 90px 1fr 1fr 150px;
+    grid-template-columns: 90px 150px 90px 1fr 1fr 150px 1fr;
     border: 2px black solid;
+    padding: 3px;
 }
 
 .box{
@@ -116,6 +121,8 @@ main{
 
 /*channel*/.d{
     grid-area: 3 / 2 / span 1 / span 1;
+    font-size: 14px;
+    align-self: end;
 }
 
 /*subscribe*/.e{
@@ -128,10 +135,13 @@ main{
 
 /*views*/.g{
     grid-area: 3 / 6 /span 2 /span 1;
+    align-self: end;
 }
+
 
 /*add*/.h{
     grid-area: 5 / 1 / span 1 / span 1;
+    font-size: 20px;
 }
 
 /*share*/.i{
@@ -147,6 +157,7 @@ main{
 
 /*like*/.l{
     grid-area: 5 / 5 / span 1 / span 1;
+
 }
 
 /*dislike*/.m{
@@ -155,19 +166,14 @@ main{
 
 /*info*/.n{
     grid-area: 6 / 1 / span 1 / span 6;
+    padding: 10px;
 }
 
 /*comments*/.o{
     grid-area: 7 / 1 / span 1 / span 6;
 }
-
-/* SIDE BAR */
-
-aside{  
-    position: fixed;
-    top: 45px;
-    left: 70%;    
+/*sidebar*/ .p{
+    grid-area: 1 / 7 / span 7 / span 1;
+    text-align: justify;
 }
-
-
 
