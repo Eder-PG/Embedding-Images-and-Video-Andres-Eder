@@ -1,0 +1,232 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* HEADER */
+
+header{    
+    position: fixed;
+    top: 0;        
+    height: 45px;
+    background-color: white;
+    z-index: 100;
+    width: 95%;
+    min-width: 1100px;
+}
+
+.button{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+#menuIcon{
+    cursor: pointer;
+    position: relative;
+    left: 20px;
+    top: 8px;
+    font-size: 24px;    
+}
+
+#youtubeIcon{    
+    cursor: pointer;
+    position: relative;
+    left: 40px;
+    top: 12px;
+}
+
+#searchBar{    
+    position: relative;
+    left: 250px;
+    top: 5px;
+    height: 24px;
+    width: 40%;
+    font-size: 16px;
+    border: 1px #000000 solid;
+    margin: 0;
+    padding: 0;
+}
+
+#searchButton{
+    cursor: pointer;  
+    position: relative;
+    left: 245px;
+    top: 4px;
+    height: 26px;
+    width: 50px;
+    background: #cccccc;
+    border: 1px #000000 solid;
+}
+
+#createButton, #appsButton, #notificationButton{
+    float: right;
+    height: 35px;
+    width: 45px;
+    cursor: pointer;
+    position: relative;
+    
+}
+
+p{
+    justify-content: stretch;
+}
+
+/* MAIN */
+
+main{
+    position: relative;
+    top: 50px;
+    width: 95%;
+    min-width: 1100px;
+    background: #ffffff;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 450px 50px 45px 45px 35px 5fr 2fr;
+    grid-template-columns: 90px 150px 90px 1fr 1fr 150px 30%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.video{ 
+    grid-area: 1 / 1 / span 1 / span 6;
+}
+
+#ytVideo{
+    width: 760px; 
+    height: 430px;
+    border: 0px;
+}
+
+.title{
+    grid-area: 2 / 1 / span 1 / span 6;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: Arial;
+    display: flex;
+    align-self: flex-end;
+     
+}
+
+.avatar{
+    grid-area: 3 / 1 / span 2 / span 1;
+    cursor: pointer;
+}
+
+.channel{
+    grid-area: 3 / 2 / span 1 / span 1;
+    font-size: 12px;    
+    font-family: Arial;
+    text-align: center;
+    display: flex;    
+    align-self: flex-end;
+}
+
+.subscribe{
+    grid-area: 4 / 2 / span 1 / span 1;       
+}
+
+#subscribeButton{
+    cursor: pointer; 
+    height: 40px;
+    width: 140px;
+    background-image: url("../assets/sub-button.jpg");
+    background-size: contain;
+    border: 0px;
+}
+
+.blank1{
+    grid-area: 3 / 3 / span 2 / span 3;
+}
+
+.views{
+    grid-area: 3 / 6 /span 2 /span 1; 
+    font-size: 15px;    
+    font-family: Arial;
+    text-align: center;
+    display: flex;    
+    align-self: flex-end;
+    padding-bottom: 5px;
+    
+}
+
+
+.lowerButtons{    
+    grid-area: 5 / 1 / span 1 / span 3;    
+    text-align: center;        
+}
+
+#addButton, #shareButton, #moreButton{
+    cursor: pointer;
+    border: 0px;
+    background: #ffffff;
+    height: 1em;
+    width: 100px;
+    font-size: 20px;    
+    font-weight: 700;
+    font-family: Arial;
+}
+
+.blank2{
+    grid-area: 5 / 4 / span 1 / span 1;
+}
+
+.like{
+    cursor: pointer;
+    grid-area: 5 / 5 / span 1 / span 1;
+    font-size: 20px;    
+    font-weight: 700;
+    font-family: Arial;
+    text-align: end; 
+}
+
+.dislike{
+    cursor: pointer;
+    grid-area: 5 / 6 / span 1 / span 1;
+    font-size: 20px;    
+    font-weight: 700;
+    font-family: Arial;
+    padding-left: 40px;   
+}
+
+.info{
+    grid-area: 6 / 1 / span 1 / span 6;
+    font-size: 14px;
+    font-family: Arial;
+    padding: 10px;
+    text-align: justify;
+}
+
+.comments{
+    grid-area: 7 / 1 / span 1 / span 6;
+    font-size: 14px;    
+    font-family: Arial;
+    text-align: center
+}
+
+.sidebar{
+    grid-area: 1 / 7 / span 7 / span 1;    
+    font-size: 14px;
+    font-family: Arial;
+    text-align: left;
+}
+
+.sideVideo, .sideText{
+    cursor: pointer;
+}
+
+#autoPlay{
+    color: #777777;
+    width: 150px;
+    display: inline-flex;
+    justify-content: space-between;
+    
+}
+
+#toggle{
+    color:#5588ff;
+    font-size: 25px;   
+    
+}
