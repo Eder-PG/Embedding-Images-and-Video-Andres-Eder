@@ -2,7 +2,7 @@
 
 > This is the first project of the Microverse.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./assets/app_screenshot.png)
 
 Replicating Youtube video page appearance by using HTML & CSS.
 
