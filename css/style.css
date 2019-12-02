@@ -6,6 +6,9 @@
 /* HEADER */
 
 header{    
+        
+    
+
     position: fixed;
     top: 0;
     width: 100%;    
@@ -14,44 +17,36 @@ header{
     z-index: 100;
 }
 
-.button{
-    border: 0;
-    padding: 0;
-    margin: 0;
-}
-
 #menuIcon{
-    cursor: pointer;
-    position: relative;
-    left: 20px;
-    top: 8px;
+
+
+
+    cursor: pointer;    
     font-size: 24px;    
 }
 
 #youtubeIcon{    
-    cursor: pointer;
-    position: relative;
-    left: 40px;
-    top: 12px;
+
+
+
+    cursor: pointer;    
 }
 
-#searchBar{    
-    position: relative;
-    left: 60px;
-    top: 5px;
+#searchBar{   
+    
+
+
     height: 24px;
     width: 40%;
     font-size: 16px;
-    border: 1px #000000 solid;
-    margin: 0;
-    padding: 0;
+    border: 1px #000000 solid;    
 }
 
 #searchButton{
-    cursor: pointer;  
-    position: relative;
-    left: 55px;
-    top: 4px;
+
+
+
+    cursor: pointer;   
     height: 26px;
     width: 50px;
     background: #cccccc;
@@ -59,21 +54,18 @@ header{
 }
 
 #uploadIcon{
-    float: right;
-    cursor: pointer;
-    position: relative;
-    right: 60px;   
-    top: 15px;
+    
+
+
+    cursor: pointer;  
     font-size: 20px;
 }
 
 #signupButton{
-    float: right;
-    cursor: pointer;
-    position: relative;
-    align-self: right;
-    right: 40px;
-    top: 11px;
+    
+
+
+    cursor: pointer;    
     height: 26px;
     background: #5588ff;
     border: 1px #5588ff solid;
@@ -82,9 +74,6 @@ header{
     font-size: 12px;
 }
 
-p{
-    justify-content: stretch;
-}
 
 /* MAIN */
 
@@ -93,6 +82,10 @@ main{
     top: 50px;
     width: 100%;
     background: #ffffff;
+}
+
+p{
+    justify-content: stretch;
 }
 
 .container{
