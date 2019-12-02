@@ -37,7 +37,7 @@ header{
 
 #searchBar{    
     position: relative;
-    left: 60px;
+    left: 250px;
     top: 5px;
     height: 24px;
     width: 40%;
@@ -50,7 +50,7 @@ header{
 #searchButton{
     cursor: pointer;  
     position: relative;
-    left: 55px;
+    left: 245px;
     top: 4px;
     height: 26px;
     width: 50px;
@@ -58,7 +58,16 @@ header{
     border: 1px #000000 solid;
 }
 
-#uploadIcon{
+#createButton, #appsButton, #notificationButton{
+    float: right;
+    height: 35px;
+    width: 45x;
+    cursor: pointer;
+    position: relative;
+    right: 110px;
+}
+
+/*#uploadIcon{
     float: right;
     cursor: pointer;
     position: relative;
@@ -80,7 +89,7 @@ header{
     color: white;   
     width: 60px;
     font-size: 12px;
-}
+}*/
 
 p{
     justify-content: stretch;
@@ -97,7 +106,7 @@ main{
 
 .container{
     display: grid;
-    grid-template-rows: 320px 50px 45px 45px 35px 5fr 2fr;
+    grid-template-rows: 500px 50px 45px 45px 35px 5fr 2fr;
     grid-template-columns: 90px 150px 90px 1fr 1fr 150px 30%;
     padding-left: 30px;
     padding-right: 30px;
