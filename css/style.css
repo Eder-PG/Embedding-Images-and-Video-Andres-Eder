@@ -62,10 +62,10 @@ header{
 #createButton, #appsButton, #notificationButton{
     float: right;
     height: 35px;
-    width: 45x;
+    width: 45px;
     cursor: pointer;
     position: relative;
-    right: 110px;
+    
 }
 
 p{
@@ -216,19 +216,17 @@ main{
 .sideVideo, .sideText{
     cursor: pointer;
 }
+
+#autoPlay{
+    color: #777777;
+    width: 150px;
+    display: inline-flex;
+    justify-content: space-between;
+    
+}
+
 #toggle{
     color:#5588ff;
-    font-size: 25px;    
-    position: relative;
-    right:80px;
-    display: inline;
-}
-#autoPlay{
-color: #777777;
-float: right;
-position: relative;
-right:100px;
-display:inline;
-
-
+    font-size: 25px;   
+    
 }
